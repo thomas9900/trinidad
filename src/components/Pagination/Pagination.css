@@ -1,0 +1,37 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination li {
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    padding-top: 3px;
+    margin: 0px 10px;
+}
+
+.pagination__btn {
+    color: #fff !important;
+    background-color: #ff57a2 !important;
+    padding: 0px !important;
+}
+
+.pagination__arrow {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.pagination .active {
+    color: #ff57a2;
+}
+
+.pagination li:hover {
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 500px;
+}

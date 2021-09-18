@@ -1,0 +1,33 @@
+.article {
+    width: 800px;
+}
+
+.article h1 {
+    color: #14cc76;
+    text-align: center;
+    font-size: 48px;
+    margin: 10px;
+}
+
+.article__paragraphs {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.article__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.article__img {
+    max-width: 800px;
+}
+
+.article__ul > li {
+    background-color: #ff57a2;
+    color: #fff;
+    padding: 3px 8px;
+    margin-right: 10px;
+    border-radius: 500px;
+}
